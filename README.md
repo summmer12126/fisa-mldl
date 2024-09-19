@@ -3,19 +3,19 @@
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/29f4beeb-5a3b-4bdf-be4f-054ca428347f/0029ef6b-12e3-4801-beb5-77c29b13fb20/image.png)
 
 
-#프로젝트 개요
+# 1 프로젝트 개요
 
 이 프로젝트의 목표는 은행 마케팅 데이터를 바탕으로, 고객이 캠페인에 응답하여 **deposit**을 여는지 여부를 예측하는 머신러닝 모델을 개발하고 최적화하는 것입니다.
 
 ---
 
 
-#voting classifier 세부 사항
+# 2 voting classifier 세부 사항
 
 세 가지 모델의 예측을 결합한 soft_voting 분류기를 구현했습니다. soft_voting은 각 모델에서 예측된 확률을 기반으로 하며, 각 모델에 동일한 가중치를 부여하여 결과를 결합합니다.
 
 
-# model 결과
+# 3 model 결과
 
 | 방법 | 정확도 (Accuracy) | AUC | 재현율 (Recall) |
 | --- | --- | --- | --- |
@@ -23,7 +23,7 @@
 | GridSearch optimised | 0.7425 | 0.8073 | 0.6289 |
 | Optuna optimiised | 0.7273 | 0.7929 | 0.6401 |
 
-##포함된 model
+## 포함된 model
 
 - **RandomForest**
 - **XGBoost**
@@ -34,7 +34,7 @@
 ---
 
 
-# 주요 인사이트:
+# 4 주요 인사이트
 
 - **기본** soft_voting은 안정적인 성능의 기준점 역할을 했습니다.
 - GridSearch 최적화는 AUC와 재현율을 개선하며 정확도도 소폭 상승했습니다.
@@ -42,7 +42,7 @@
 
 ---
 
-# requirements.txt
+# 5 requirements.txt
 
 - Python 3.7 이상
 - scikit-learn
@@ -52,7 +52,7 @@
 
 ---
 
-#Troubleshooting & Future Tasks
+# 6 Troubleshooting
 
 ## **1 PyCaret 실행 오류 문제:**
 
@@ -92,7 +92,7 @@ lightgbm==4.5.0
 
 ---
 
-# Future Tasks
+# 7 Future Tasks
 
 1. feature selection SFS 로 해보고 모델 비교해보기
 2. PyCaret을 다시 시도해 보기.
