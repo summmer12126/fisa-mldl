@@ -1,6 +1,8 @@
 # Voting Classifier model 비교 및 최적화
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/29f4beeb-5a3b-4bdf-be4f-054ca428347f/0029ef6b-12e3-4801-beb5-77c29b13fb20/image.png)
+
+<p align="center"><img src="https://imgur.com/a/AMREUP2"></p>
+
 
 
 # 1 프로젝트 개요
