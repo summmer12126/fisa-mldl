@@ -1,7 +1,7 @@
 # Voting Classifier model 비교 및 최적화
 
 
-<p align="center"><img src="https://imgur.com/a/AMREUP2"></p>
+<p align="center"><img src="image.png"></p>
 
 
 
